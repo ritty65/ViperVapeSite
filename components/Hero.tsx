@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 p-6 flex flex-col items-center animate-slide-in-up">
         <video 
   className="w-full max-w-4xl mb-6 rounded-lg shadow-lg" 
-  src="/hero-video.mp4" 
+  src="/FinalAd.mp4" 
   controls
   playsInline
 >
