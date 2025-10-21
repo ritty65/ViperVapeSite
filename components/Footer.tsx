@@ -1,5 +1,5 @@
 import React from 'react';
-import { ViperLogo, TwitterIcon, InstagramIcon, FacebookIcon } from './icons';
+import { TwitterIcon, InstagramIcon, FacebookIcon } from './icons';
 
 const Footer: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           {/* Column 1: Logo & Socials */}
           <div>
             <div className="flex items-center justify-center md:justify-start space-x-2 mb-4">
-              <ViperLogo className="h-10 w-10 text-viper-gold" />
+              <img src="/ViperLogo.png" alt="Viper Vapes Logo" className="h-10 w-10 object-contain" />
               <span className="text-2xl font-teko font-bold text-white uppercase tracking-widest">VIPER VAPES</span>
             </div>
             <p className="text-gray-400 text-sm mb-4">

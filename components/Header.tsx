@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { ViperLogo } from './icons';
 
 const navLinks = [
   { name: 'Home', href: '#/' },
@@ -46,7 +45,7 @@ const Header: React.FC = () => {
     <header className={`sticky top-0 left-0 right-0 z-40 transition-all duration-300 ${isScrolled || isMenuOpen ? 'bg-viper-dark/80 backdrop-blur-lg border-b border-viper-gold/20' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#/" className="flex items-center space-x-2 z-50">
-          <ViperLogo className="h-10 w-10 text-viper-gold" />
+          <img src="/ViperLogo.png" alt="Viper Vapes Logo" className="h-10 w-10 object-contain" />
           <span className="text-2xl font-teko font-bold text-white tracking-widest uppercase">Viper Vapes</span>
         </a>
         

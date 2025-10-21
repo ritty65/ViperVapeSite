@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-viper-dark"></div>
       
       <div className="relative z-10 p-6 flex flex-col items-center animate-slide-in-up">
-        <ViperLogo className="w-48 h-48 md:w-64 md:h-64 mb-6 text-viper-gold" />
+        <img src="/ViperLogo.png" alt="Viper Vapes Logo" className="w-48 h-48 md:w-64 md:h-64 mb-6 object-contain" />
         <h1 className="text-5xl md:text-7xl font-teko font-black uppercase tracking-wider text-shadow-gold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-viper-gold-dark to-viper-gold">
             Unleash The
