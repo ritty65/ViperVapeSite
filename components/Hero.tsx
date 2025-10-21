@@ -8,7 +8,16 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-viper-dark"></div>
       
       <div className="relative z-10 p-6 flex flex-col items-center animate-slide-in-up">
-        <img src="/ViperLogo.png" alt="Viper Vapes Logo" className="w-48 h-48 md:w-64 md:h-64 mb-6 object-contain" />
+        <video 
+  className="w-full max-w-lg mb-6 rounded-lg shadow-lg" 
+  src="/FinalAd.mp4" 
+  autoPlay 
+  loop 
+  muted 
+  playsInline
+>
+  Your browser does not support the video tag.
+</video>
         <h1 className="text-5xl md:text-7xl font-teko font-black uppercase tracking-wider text-shadow-gold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-viper-gold-dark to-viper-gold">
             Unleash The
