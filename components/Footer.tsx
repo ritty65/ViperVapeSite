@@ -38,9 +38,9 @@ const Footer: React.FC = () => {
           <div>
              <h3 className="font-bold text-white text-lg mb-4 tracking-wider uppercase">Contact Us</h3>
              <ul className="text-gray-400">
-                <li className="mb-2">123 Venom Road, Serpent City</li>
-                <li className="mb-2">Email: support@vipervapes.shop</li>
-                <li className="mb-2">Phone: (555) 123-4567</li>
+                <li className="mb-2">1235 Clear Lake City Blvd, Unit D, Houston, TX 77062, United States</li>
+                <li className="mb-2">Email: contactus@vipervapes.shop</li>
+                <li className="mb-2">Phone: 1 (346) 230-7139</li>
              </ul>
           </div>
         </div>
